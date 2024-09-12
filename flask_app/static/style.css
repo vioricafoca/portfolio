@@ -1,0 +1,186 @@
+    * {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+  img {
+  display: block;
+  width: 100%;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 20px;
+  padding: 85px;
+  border-radius: 5px;
+  background: seashell;
+}
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  margin: 10px 20px;
+  padding: 85px;
+  border-radius: 5px;
+  background: seashell;
+}
+.nav > ul {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  list-style-type: none;
+  background-color: #ffff;
+}
+li {
+  margin: 5px 20px 5px 20px;
+}
+
+.project-title {
+  font-size: 25px;
+  padding: 10px;
+  width: content-box;
+  text-align: center;
+  background-color: #efdacc;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  display: flow;
+  text-align: center;
+  color: #475153;
+}
+
+li a {
+  display: inline;
+  color: black;
+  font-size: 23px;
+  margin-right: 32px;
+}
+
+li a:hover {
+  background-color: #f2f2f2;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: monospace;
+  font-weight: 70;
+  margin-top: 100px;
+}
+
+.project-header {
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: 200;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.photo-profile {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+.projects-grid {
+  max-width: 100%;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    margin: 0 auto;
+}
+
+.project-image {
+  height: calc(100% - 30px);
+  width: 100%;
+  object-fit: inherit;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: 40px;
+  color: #475153;
+  text-align: center;
+}
+
+.projects-section {
+  margin: 80px;
+}
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+  background: #e4e7d2;
+}
+
+.contact-section-header {
+  margin-bottom: 15px;
+  display: block;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+.red-text {
+  color: crimson;
+}
+
+.green-text {
+  color: darkcyan;
+}
+
+.blue-text {
+  color: darkblue;
+}
+
+.contact-details {
+  font-size: 32px;
+  color: #393960;
+  transition: transform 0.3s ease-out;
+  flex-direction: row;
+}
+
+.contact-details:hover {
+  transform: translateY(10px);
+  color: darkblue;
+}
+
+.link {
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 2px;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 70px;
+  flex-wrap: wrap;
+  text-justify: newspaper;
+}
